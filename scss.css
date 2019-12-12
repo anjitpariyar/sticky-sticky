@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize; }
+
+body {
+  width: 100%;
+  /*	display: flex;
+  	justify-content: center;
+  	align-items: center;*/ }
+  body section {
+    width: 80%;
+    margin: 60px auto; }
+  body dl > dt {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #666;
+    color: #fff;
+    font-size: 3rem;
+    text-align: start;
+    padding: 10px 20px; }
+  body p {
+    padding: 50px 0;
+    background-color: #eee;
+    color: #666;
+    font-size: 1.8rem; }
+
+/*# sourceMappingURL=scss.css.map */
